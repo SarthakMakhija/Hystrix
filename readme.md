@@ -1,4 +1,4 @@
-Spring Boot projects based on Hystrix. Hystrix is a fault and latency tolerant library for distributed systems.
+Spring Boot projects based on Hystrix. Hystrix is a fault and latency tolerant library for distributed systems. https://github.com/Netflix/Hystrix/wiki
 
 HystrixCloudConfig is a spring-cloud configuration server project for storing properties for various clients which can connect to this server for reading properties. Currently properties are located under /Users/sarthakm/hystrix/repo defined in application.properties within this project.
 
