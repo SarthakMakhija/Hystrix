@@ -12,7 +12,9 @@ All these project have gradle wrapper. In order to run any project execute the b
 HystrixSpikeCore has a dependency on MongoDB. Please ensure either - <br />
     1. Mongo is up and running <br />
     2. Change the following properties if needed, <br />
+        <ul><li>
         spring.data.mongodb.host=localhost <br />
         spring.data.mongodb.port=27017 <br />
         spring.data.mongodb.database=hystrix_metrics_db <br />
     3.  Or, comment out mongoMetricsReporter in MetricsPublishingConfiguration <br />
+        </li></ul>
