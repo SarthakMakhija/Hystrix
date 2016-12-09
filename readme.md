@@ -10,7 +10,7 @@ HystrixSpikeCore talks to HystrixCloudConfig for loading all the properties rele
 
 HystrixSpikeExternalService is a spring-boot application which defines certain REST services for returning dummy GeoLocation and Weather information.
 
-HystrixSpikeCore has a dependency on MongoDB. Please ensure either - <br />
+HystrixSpikeCore has a dependency on MongoDB (for storing some Hystrix Metrics [for POC]). Please ensure either - <br />
     1. Mongo is up and running <br />
     2. Change the following properties in application.properties if needed, <br />
         <ul><li>
