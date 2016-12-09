@@ -9,10 +9,10 @@ HystrixSpikeExternalService is a spring boot application which defines certain R
 All these project have gradle wrapper. In order to run any project execute the below mentioned command -
   ./gradlew bootRun
 
-HystrixSpikeCore has a dependency on MongoDB. Please ensure either -
-    1. Mongo is up and running
-    2. Change the following properties if needed,
-        spring.data.mongodb.host=localhost__
-        spring.data.mongodb.port=27017__
-        spring.data.mongodb.database=hystrix_metrics_db__
-    3.  Or, comment out mongoMetricsReporter in MetricsPublishingConfiguration__
+HystrixSpikeCore has a dependency on MongoDB. Please ensure either - <br />
+    1. Mongo is up and running <br />
+    2. Change the following properties if needed, <br />
+        spring.data.mongodb.host=localhost <br />
+        spring.data.mongodb.port=27017 <br />
+        spring.data.mongodb.database=hystrix_metrics_db <br />
+    3.  Or, comment out mongoMetricsReporter in MetricsPublishingConfiguration <br />
